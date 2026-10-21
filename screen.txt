@@ -1,0 +1,18 @@
+{
+    "Background" : "Sine",
+    "Screens" : [
+                    {
+                        "Text" : ["", "Nigel Knox", "Inventor", ""], 
+                        "Time" : 50
+                    },
+                    {
+                        "Text" : ["", "Nigel Knox", "Software", "Engineer"],
+                        "Time" : 50
+                    },
+                    {
+                        "Text" : ["", "Wifi:Nigel", "No password", ""],
+                        "Time" : 50
+                        "Background" : "Line",
+                    }
+                ]
+}

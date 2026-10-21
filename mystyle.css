@@ -1,0 +1,45 @@
+h1 {text-align: center;}
+h2 {text-align: center;}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, p {
+  margin: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.gallery > div {
+    flex-grow: 2;
+    width: 50%;
+    max-width: 50%;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
